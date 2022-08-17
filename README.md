@@ -1,24 +1,21 @@
-# api-quick-start
+# Lab: 34 - Back End Deployment
+## Project: cookie-stand-api
+#### Author: Mohammad Azim
+#### Links and Resources
 
-Template Project for starting up CRUD API with Django Rest Framework
+[Django REST framework](https://www.django-rest-framework.org/)
 
-## Customization Steps
+[Simplejwt](https://django-rest-framework-simplejwt.readthedocs.io/en/latest/)
 
-- DO NOT migrate yet
-- add additional dependencies as needed
-  - Re-export requirements.txt as needed
-- change `things` folder to the app name of your choice
-- Search through entire code base for `Thing`,`Things` and `things` to modify code to use your resource
-  - `project/settings.py`
-  - `project/urls.py`
-  - App's files
-    - `views.py`
-    - `urls.py`
-    - `admin.py`
-    - `serializers.py`
-    - `permissions.py`
-- Update ThingModel with fields you need
-  - Make sure to update other modules that would be affected by Model customizations. E.g. serializers, tests, etc.
-- Rename `project/.env.sample` to `.env` and update as needed
-- Run makemigrations and migrate commands
-- Optional: Update `api_tester.py`
+[whitenoise](http://whitenoise.evans.io/en/stable/)
+
+[api-quickstart Git](https://github.com/codefellows/python-401-api-quickstart)
+
+
+### Online API links
+
+#### https://cookie99stand99api.herokuapp.com/api/token/
+
+#### https://cookie99stand99api.herokuapp.com/api/token/refresh/
+
+#### https://cookie99stand99api.herokuapp.com/api/v1/cookie-stand/
