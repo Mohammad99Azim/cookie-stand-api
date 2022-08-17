@@ -2,8 +2,8 @@ import fire
 import requests
 
 # NOTE: Adjust these settings as needed
-API_HOST = "http://localhost:8000"
-RESOURCE_URI = "things"
+API_HOST = "https://cookie99stand99api.herokuapp.com"
+RESOURCE_URI = "cookie-stand"
 USERNAME = "admin"
 PASSWORD = "admin"
 
